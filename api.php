@@ -6,7 +6,7 @@ if(!empty($_POST['nomor'])) {
 if($nomor == null) {
     exit("Masukan Nomor!\n");
 }
-$ch = curl_init('http://nakocoders.org/boom/boom.php');
+$ch = curl_init('https://nakocoders.org/boom/0x.php');
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($ch,CURLOPT_POST,1);
 curl_setopt($ch,CURLOPT_RETURNTRANSFER,TRUE);
